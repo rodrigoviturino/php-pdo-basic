@@ -5,7 +5,7 @@ $conexao = new PDO("mysql:dbname=dbphp7; host=localhost;", "root","");
 
 $stmt = $conexao->prepare("INSERT INTO tb_usuarios (deslogin,dessenha) VALUE (:LOGIN, :PASSWORD)");
 
-// ESTES SÃO OS DADOS QUE O PARAMETRO VAI BUSCAR PARA INSERIR
+// ESTES SÃO OS DADOS QUE O PARAMETRO VAI BUSCAR PARA INSERIR "
 $login = "rodrigo";
 $password = '00';
 
